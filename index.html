@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+.bg{
+background-image:url('boy.jpg');}
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="images/boy.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#resume" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>RESUME</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">RESUME</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main" >
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home" >
+    <h5><span class="w3-hide-small">I'm</span> Edakulapally Suresh.</h5>
+    <p style="color:cyan">Web Devoloper</p>
+    <img src="boy.jpg"  alt="by" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">About Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Seeking a position in respectable company where I can use my abilities to the fullest and contribute to the
+    success of the organization.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Photography</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Web Development</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">3+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">0+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">0</span><br>
+        Meetings
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+    
+    
+    <div class="container" id="photos">
+    
+    <div class="section-title">
+    <h2 class="w3-text-light-grey">Resume</h2>
+    </div>
+    
+    <div class="row">
+    <div class="col-lg-6">
+    
+    <div class="resume-item pb-0">
+    <h4>Edakulapally Suresh</h4>
+    <p><em>Fresher</em></p>
+    <p>
+    <ul>
+    <li>New Hafeezpet, Hyderabad</li>
+    <li>+91 6304257629</li>
+    <li>sureshkumar6304257@gmail.com</li>
+    </ul>
+    </p>
+    </div>
+    
+    <h3 class="resume-title w3-text-light-grey">Education</h3>
+    <div class="resume-item">
+    <h4>Batchelor of Technology ( Computer Science and Engineering )</h4>
+    <h5>2018 - 2022</h5>
+    <p><em>Narsimha Reddy Engineering College, Maisamma Guda, India</em></p>
+    </div>
+    
+    <div class="resume-item">
+    <h4>Intermediate</h4>
+    <h5>2015 - 2018</h5>
+    <p><em>Sri Lepakshi Junior College, Chanda Nagar, Hyderabad</em></p>
+    </div>
+    
+    <div class="resume-item">
+    <h4>SSC</h4>
+    <h5>2014 - 2015</h5>
+    <p><em>Zilla Parishad High School, Kothaguda, Hyderabad</em></p>
+    </div>
+    
+    </div>
+    <div class="col-lg-6">
+    <h3 class="resume-title w3-text-light-grey">Projects</h3>
+    <div class="resume-item">
+    <h4>Finger Print Based ATM System</h4>
+    <h5>June 2022 - Jul 2022</h5>
+    <p><em>Maisamma guda, Hyderabad </em></p>
+    <p>
+    <ul>
+    <li>The aim of this project to provide secure banking system, by taking fingerprints as authorized
+    identity at ATM/banks.</li>
+    <li>Assisted the Project in documentation and planning</li>
+    
+    </ul>
+    </p>
+    </div>
+    <div class="resume-item">
+    <h4>Online Land Real Estate Registration</h4>
+    <h5> Jan 2022 - Feb 2022</h5>
+    <p><em>Maisamma guda, Hyderabad</em></p>
+    <p>
+    <ul>
+    <li>Online Real Estate Registration is a project which provides a friendly format for register land
+    properties.</li>
+    <li>Assisted building the project and resolved errors with the group of 4 members</li>
+    
+    </ul>
+    </p>
+    </div>
+    </div>
+    </div>
+    
+    </div>
+   
+    
+  
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Hyderabad, India</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 6304257629</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i>Email: sureshkumar6304257@.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+   <a href="https://www.facebook.com/profile.php?id=100028494310674&mibextid=ZbWKwL" <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://instagram.com/mr.suresh_r3507?igshid=MzNlNGNkZWQ4Mg==" ><i class="fa fa-instagram w3-hover-opacity"></i></a>
+<a href="https://twitter.com/Suresh_Kumar519?t=wCEplwNsFo1bQsTVbyE-uA&s=09" ><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/edakulapally-suresh-001987188" <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+   
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
